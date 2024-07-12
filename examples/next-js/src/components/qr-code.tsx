@@ -3,6 +3,8 @@
 import { createSolanaQR, encodeURL } from "@solana/actions";
 import { useEffect, useRef } from "react";
 
+// QR code 
+
 type ComponentProps = {
   url: string | URL;
   className?: string;
